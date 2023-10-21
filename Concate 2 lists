@@ -1,0 +1,6 @@
+list1 = ['Hello', 'Bye', 'Come']
+list2 = [1, 2, 3]
+# Concatenate lists index-wise
+result = [str(a) + str(b) for a, b in zip(list1, list2)]
+# zip(list1, list2) pairs the elements of list1 and list2 index-wise.
+print(result)
